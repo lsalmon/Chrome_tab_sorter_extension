@@ -3,7 +3,7 @@
 
 let page = document.getElementById('buttonDiv');
 const buttonOptions = [];
-function constructOptions(kButtonColors) {
+function constructOptions(buttonOptions) {
   for (let item of buttonOptions) {
     let button = document.createElement('button');
     button.addEventListener('click', function() {
